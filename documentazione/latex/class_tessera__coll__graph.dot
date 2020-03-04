@@ -1,0 +1,12 @@
+digraph "Tessera"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="{Tessera\n||+ Tessera()\l+ cancellaTessera()\l+ getProfondita()\l+ operator==()\l+ isCancellata()\l+ getColonna()\l+ setColonna()\l+ getId()\l+ getRiga()\l+ setRiga()\l+ getTipo()\l+ setId()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node5 [label="{Image\n||+ Image()\l+ Image()\l+ getImmagine()\l+ getOriginalHeight()\l+ getOriginalWidth()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_image.html"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node6 [label="{Sprite\n|# path\l|+ Sprite()\l+ Sprite()\l+ getPath()\l+ setPath()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_sprite.html"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",arrowtail="onormal"];
+  Node7 [label="{GameObject\n|# width\l# height\l# x\l# y\l|+ GameObject()\l+ GameObject()\l+ getHeight()\l+ setHeight()\l+ getWidth()\l+ setWidth()\l+ getX()\l+ setX()\l+ getY()\l+ setY()\l}",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_game_object.html"];
+}

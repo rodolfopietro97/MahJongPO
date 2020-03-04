@@ -1,0 +1,175 @@
+\hypertarget{class_livello}{}\section{Riferimenti per la classe Livello}
+\label{class_livello}\index{Livello@{Livello}}
+
+
+{\ttfamily \#include $<$Livello.\+h$>$}
+
+
+
+Diagramma di collaborazione per Livello\+:
+% FIG 0
+\subsection*{Membri pubblici}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_livello_a7618f4bfd6008dbcbf3fa92fb84767e9}{Livello} (A\+L\+L\+E\+G\+R\+O\+\_\+\+D\+I\+S\+P\+L\+AY $\ast$display, unsigned tavolo\mbox{[}18\mbox{]}\mbox{[}30\mbox{]})
+\item 
+void \hyperlink{class_livello_aa3021f607bb87dd293cabbac08b97475}{inizializza\+Tavolo\+Di\+Gioco} (unsigned tavolo\mbox{[}18\mbox{]}\mbox{[}30\mbox{]})
+\item 
+void \hyperlink{class_livello_aff2cb62068d75305993ecf99d5d0d2d5}{inizializza\+Mazzo} (vector$<$ \hyperlink{class_tessera}{Tessera} $>$ \&mazzo)
+\item 
+void \hyperlink{class_livello_ace88d8069241a9879fe2ebbc9cd30cd5}{draw} (\hyperlink{class_drawer}{Drawer} \&disegnatore)
+\item 
+void \hyperlink{class_livello_a10eeb00ce588d7ef1e61450cf6f48ae5}{listen\+Events} (\hyperlink{class_event}{Event} \&gestore\+Eventi)
+\item 
+bool \hyperlink{class_livello_a8e2cce4a55babb0d896e9e959363f6b0}{rimovibili} (int i1, int i2)
+\item 
+bool \hyperlink{class_livello_a160aa68abbc6445be4bbced74807e3a1}{vinto} ()
+\item 
+bool \hyperlink{class_livello_a330c46c81139158c4a90f491b7d15151}{ha\+Tessere\+Sopra} (int i)
+\item 
+bool \hyperlink{class_livello_afe5db8bd89c50b5a61f5dd2c91752e74}{presente} (int i, int j)
+\item 
+bool \hyperlink{class_livello_aa7fccdc395e08eb3c1b833347c296bbe}{ha\+Almeno\+Un\+Lato\+Libero} (int i)
+\item 
+bool \hyperlink{class_livello_aedb65253d415e1c5a184c173237a089f}{perso} ()
+\item 
+void \hyperlink{class_livello_a764dfd1eafd8e239aded749833068b21}{reset\+Game} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Descrizione dettagliata}
+
+
+Definizione alla linea 30 del file Livello.\+h.
+
+
+
+\subsection{Documentazione dei costruttori e dei distruttori}
+\mbox{\Hypertarget{class_livello_a7618f4bfd6008dbcbf3fa92fb84767e9}\label{class_livello_a7618f4bfd6008dbcbf3fa92fb84767e9}} 
+\index{Livello@{Livello}!Livello@{Livello}}
+\index{Livello@{Livello}!Livello@{Livello}}
+\subsubsection{\texorpdfstring{Livello()}{Livello()}}
+{\footnotesize\ttfamily Livello\+::\+Livello (\begin{DoxyParamCaption}\item[{A\+L\+L\+E\+G\+R\+O\+\_\+\+D\+I\+S\+P\+L\+AY $\ast$}]{display,  }\item[{unsigned}]{tavolo\mbox{[}18\mbox{]}\mbox{[}30\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definizione alla linea 71 del file Livello.\+h.
+
+
+
+\subsection{Documentazione delle funzioni membro}
+\mbox{\Hypertarget{class_livello_ace88d8069241a9879fe2ebbc9cd30cd5}\label{class_livello_ace88d8069241a9879fe2ebbc9cd30cd5}} 
+\index{Livello@{Livello}!draw@{draw}}
+\index{draw@{draw}!Livello@{Livello}}
+\subsubsection{\texorpdfstring{draw()}{draw()}}
+{\footnotesize\ttfamily void Livello\+::draw (\begin{DoxyParamCaption}\item[{\hyperlink{class_drawer}{Drawer} \&}]{disegnatore }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definizione alla linea 143 del file Livello.\+h.
+
+\mbox{\Hypertarget{class_livello_aa7fccdc395e08eb3c1b833347c296bbe}\label{class_livello_aa7fccdc395e08eb3c1b833347c296bbe}} 
+\index{Livello@{Livello}!ha\+Almeno\+Un\+Lato\+Libero@{ha\+Almeno\+Un\+Lato\+Libero}}
+\index{ha\+Almeno\+Un\+Lato\+Libero@{ha\+Almeno\+Un\+Lato\+Libero}!Livello@{Livello}}
+\subsubsection{\texorpdfstring{ha\+Almeno\+Un\+Lato\+Libero()}{haAlmenoUnLatoLibero()}}
+{\footnotesize\ttfamily bool Livello\+::ha\+Almeno\+Un\+Lato\+Libero (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definizione alla linea 326 del file Livello.\+h.
+
+\mbox{\Hypertarget{class_livello_a330c46c81139158c4a90f491b7d15151}\label{class_livello_a330c46c81139158c4a90f491b7d15151}} 
+\index{Livello@{Livello}!ha\+Tessere\+Sopra@{ha\+Tessere\+Sopra}}
+\index{ha\+Tessere\+Sopra@{ha\+Tessere\+Sopra}!Livello@{Livello}}
+\subsubsection{\texorpdfstring{ha\+Tessere\+Sopra()}{haTessereSopra()}}
+{\footnotesize\ttfamily bool Livello\+::ha\+Tessere\+Sopra (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definizione alla linea 279 del file Livello.\+h.
+
+\mbox{\Hypertarget{class_livello_aff2cb62068d75305993ecf99d5d0d2d5}\label{class_livello_aff2cb62068d75305993ecf99d5d0d2d5}} 
+\index{Livello@{Livello}!inizializza\+Mazzo@{inizializza\+Mazzo}}
+\index{inizializza\+Mazzo@{inizializza\+Mazzo}!Livello@{Livello}}
+\subsubsection{\texorpdfstring{inizializza\+Mazzo()}{inizializzaMazzo()}}
+{\footnotesize\ttfamily void Livello\+::inizializza\+Mazzo (\begin{DoxyParamCaption}\item[{vector$<$ \hyperlink{class_tessera}{Tessera} $>$ \&}]{mazzo }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definizione alla linea 99 del file Livello.\+h.
+
+\mbox{\Hypertarget{class_livello_aa3021f607bb87dd293cabbac08b97475}\label{class_livello_aa3021f607bb87dd293cabbac08b97475}} 
+\index{Livello@{Livello}!inizializza\+Tavolo\+Di\+Gioco@{inizializza\+Tavolo\+Di\+Gioco}}
+\index{inizializza\+Tavolo\+Di\+Gioco@{inizializza\+Tavolo\+Di\+Gioco}!Livello@{Livello}}
+\subsubsection{\texorpdfstring{inizializza\+Tavolo\+Di\+Gioco()}{inizializzaTavoloDiGioco()}}
+{\footnotesize\ttfamily void Livello\+::inizializza\+Tavolo\+Di\+Gioco (\begin{DoxyParamCaption}\item[{unsigned}]{tavolo\mbox{[}18\mbox{]}\mbox{[}30\mbox{]} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definizione alla linea 89 del file Livello.\+h.
+
+\mbox{\Hypertarget{class_livello_a10eeb00ce588d7ef1e61450cf6f48ae5}\label{class_livello_a10eeb00ce588d7ef1e61450cf6f48ae5}} 
+\index{Livello@{Livello}!listen\+Events@{listen\+Events}}
+\index{listen\+Events@{listen\+Events}!Livello@{Livello}}
+\subsubsection{\texorpdfstring{listen\+Events()}{listenEvents()}}
+{\footnotesize\ttfamily void Livello\+::listen\+Events (\begin{DoxyParamCaption}\item[{\hyperlink{class_event}{Event} \&}]{gestore\+Eventi }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definizione alla linea 167 del file Livello.\+h.
+
+\mbox{\Hypertarget{class_livello_aedb65253d415e1c5a184c173237a089f}\label{class_livello_aedb65253d415e1c5a184c173237a089f}} 
+\index{Livello@{Livello}!perso@{perso}}
+\index{perso@{perso}!Livello@{Livello}}
+\subsubsection{\texorpdfstring{perso()}{perso()}}
+{\footnotesize\ttfamily bool Livello\+::perso (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definizione alla linea 343 del file Livello.\+h.
+
+\mbox{\Hypertarget{class_livello_afe5db8bd89c50b5a61f5dd2c91752e74}\label{class_livello_afe5db8bd89c50b5a61f5dd2c91752e74}} 
+\index{Livello@{Livello}!presente@{presente}}
+\index{presente@{presente}!Livello@{Livello}}
+\subsubsection{\texorpdfstring{presente()}{presente()}}
+{\footnotesize\ttfamily bool Livello\+::presente (\begin{DoxyParamCaption}\item[{int}]{i,  }\item[{int}]{j }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definizione alla linea 310 del file Livello.\+h.
+
+\mbox{\Hypertarget{class_livello_a764dfd1eafd8e239aded749833068b21}\label{class_livello_a764dfd1eafd8e239aded749833068b21}} 
+\index{Livello@{Livello}!reset\+Game@{reset\+Game}}
+\index{reset\+Game@{reset\+Game}!Livello@{Livello}}
+\subsubsection{\texorpdfstring{reset\+Game()}{resetGame()}}
+{\footnotesize\ttfamily void Livello\+::reset\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definizione alla linea 356 del file Livello.\+h.
+
+\mbox{\Hypertarget{class_livello_a8e2cce4a55babb0d896e9e959363f6b0}\label{class_livello_a8e2cce4a55babb0d896e9e959363f6b0}} 
+\index{Livello@{Livello}!rimovibili@{rimovibili}}
+\index{rimovibili@{rimovibili}!Livello@{Livello}}
+\subsubsection{\texorpdfstring{rimovibili()}{rimovibili()}}
+{\footnotesize\ttfamily bool Livello\+::rimovibili (\begin{DoxyParamCaption}\item[{int}]{i1,  }\item[{int}]{i2 }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definizione alla linea 254 del file Livello.\+h.
+
+\mbox{\Hypertarget{class_livello_a160aa68abbc6445be4bbced74807e3a1}\label{class_livello_a160aa68abbc6445be4bbced74807e3a1}} 
+\index{Livello@{Livello}!vinto@{vinto}}
+\index{vinto@{vinto}!Livello@{Livello}}
+\subsubsection{\texorpdfstring{vinto()}{vinto()}}
+{\footnotesize\ttfamily bool Livello\+::vinto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definizione alla linea 270 del file Livello.\+h.
+
+
+
+La documentazione per questa classe è stata generata a partire dal seguente file\+:\begin{DoxyCompactItemize}
+\item 
+/home/rodolfo/atom-\/workspace/\+Mah\+Jong\+P\+O/\hyperlink{_livello_8h}{Livello.\+h}\end{DoxyCompactItemize}

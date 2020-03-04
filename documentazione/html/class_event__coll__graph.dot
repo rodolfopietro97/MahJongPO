@@ -1,0 +1,6 @@
+digraph "Event"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="{Event\n||+ Event()\l+ ~Event()\l+ getMouseX()\l+ getMouseY()\l+ isMouseClicked()\l+ isMouseRelased()\l+ onGameClose()\l+ hover()\l+ click()\l+ xCollision()\l+ yCollision()\l+ collision()\l}",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+}

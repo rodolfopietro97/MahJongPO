@@ -1,0 +1,14 @@
+\hypertarget{_color_8h}{}\section{Riferimenti per il file /home/rodolfo/atom-\/workspace/\+Mah\+Jong\+P\+O/\+Color.h}
+\label{_color_8h}\index{/home/rodolfo/atom-\/workspace/\+Mah\+Jong\+P\+O/\+Color.\+h@{/home/rodolfo/atom-\/workspace/\+Mah\+Jong\+P\+O/\+Color.\+h}}
+Questo grafo mostra quali altri file includono direttamente o indirettamente questo file\+:
+% FIG 0
+\subsection*{Composti}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_color}{Color}
+\end{DoxyCompactItemize}
+\subsection*{Namespace}
+\begin{DoxyCompactItemize}
+\item 
+ \hyperlink{namespace_colors}{Colors}
+\end{DoxyCompactItemize}
